@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>"icecream"</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+
+ 
+  <!-- fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- web fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+
+
+
+ .bg{background-color:#FFE9E0; 
+       box-shadow:5px 5px 10px #FFE9E0;}
+
+      .navbar-brand{margin-left: 10%;}
+
+         .navbar-nav{width: 100%;
+                     margin-left: 17%;}
+            .nav-item{font-family: 'Poppins', sans-serif;
+             font-weight: 500; 
+             ont-size: 18px;
+             color: #D82A47;
+             margin-left: 12%;}
+
+               .nav-link{color: #D82A47;}
+
+               .nav-link:hover{background-color: #D82A47;
+                  color: white;
+                 border-radius: 50px;
+                 box-shadow: 0.1px 0.1px 10px #D82A47;
+                 transition: 0.4s;}
+
+
+                a.nav-link.Active {
+                    background: #D82A47;
+                    color: white;
+                    text-align: center;
+                    border-radius: 50px;
+                    width: 150px;
+                }
+
+
+ 
+               button.btn1:focus-visible {
+                  border: none;
+                  outline: none !;
+              }
+
+
+              .bg1{margin-top: 7.7%;
+                background-color:#FFE9E0;
+                width: 100%;}
+
+              .img-fluid1{margin-left: 25%;}
+
+              .heading{margin-left: 3%;
+                padding: 8%;}
+
+              #ice{font-family: 'Playfair Display', sans-serif;
+                font-weight: 600; 
+                font-size: 130px;
+                color: #D82A47;
+                text-shadow: 2px 2px 10px #556534;}
+
+              #caption{font-family: 'Poppins', sans-serif;
+                font-weight: 500; 
+                font-size: 18px;
+               color: #707070;}
+
+              .btn{background-color: #556534;
+                color: white;
+                font-family: 'Poppins' sans-serif;
+              font-weight: 500;
+              font-size: 14px;
+              border-radius: 50px;}
+              .btn:hover{box-shadow: 5px 5px 10px #556534;
+                color: white;
+                font-size: 14px;}
+
+  
+  
+                  li.nav-item a {
+                  font-weight: bold;
+              }
+                  
+                  .bg2{height:0%;
+                    background-color:#FFE9E0;
+                    width: 100%;}
+
+                  .img-box{width: 380px; 
+                    height: 500px;
+                    transition: 0.3s !important;
+                  }
+
+                  .img-box:hover{transform:scale(1.07);
+                    transition:0.4s;}
+
+                  .text-cont{margin-top: 30%;}  
+
+                  .heading2{font-family: 'Playfair Display', sans-serif;
+                    font-weight: 600; 
+                    font-size: 60px;
+                    color: #D82A47;}
+
+                  .cap{font-family: 'Poppins', sans-serif;
+                    font-weight: 409; 
+                    font-size: 18px;
+                    color: #C5C5C5;}
+
+                  .rate{font-family: 'Playfair Display', sans-serif;
+                    font-weight: 600; 
+                    font-size: 24px;
+                    color: #D82A47;}
+
+                  .btn1{font-family: 'Poppins', sans-serif; 
+                    margin-left: 5%; 
+                    width: 150px;
+                    height: 32px; 
+                    background-color: #D82A47;
+                    color: white;
+                    font-family: 'Poppins' sans-serif;
+                  font-weight: 500;
+                  font-size: 14px;
+                  border: #D82A47;
+                  border-radius: 50px !important;}
+
+                  .btn1:hover{  box-shadow: 1px 3px 5px #D82A47;
+                    color: white;
+                    font-size: 14px;
+                    border: #D82A47;}
+  
+
+
+
+                  .img-fluid2{width: 100%;
+                    height: 375px;}
+
+                  .overlay{position: absolute; 
+                    top: 15%;
+                    font-family: 'Stratos' sans-serif;
+                  font-weight: 400;
+                  font-size: 24px;
+                  color: #045F7F;
+                  left: 30%;}
+
+                  .name{color: #D82A47; 
+                    top: 0%;
+                    left: 0%;
+                    font-family: 'Filson Pro', sans-serif; 
+                    font-weight: 600;
+                    font: 4px;}
+
+
+                    @media screen and (max-width: 1440px){
+                      .bg1 {
+                          margin-top: 9.7%;
+                          background-color: #FFE9E0;
+                          width: 100%;
+                      }
+                    }
+
+
+                    @media screen and (max-width: 1024px){
+                     .bg1 {
+                          margin-top: 10.7%;
+                          background-color: #FFE9E0;
+                          width: 100%;
+                      }
+
+
+                        #ice {
+                          font-family: 'Playfair Display', sans-serif;
+                          font-weight: 600;
+                          font-size: 100px;
+                          color: #D82A47;
+                          text-shadow: 2px 2px 10px #556534;
+                      }
+
+                      a.navbar-brand img {
+                              width: 70%;
+                          }
+                    }
+
+
+
+                     @media screen and (max-width: 768px){
+                      .bg1 {
+                            margin-top: 13.7%;
+                            background-color: #FFE9E0;
+                            width: 100%;
+                        }
+
+
+                        .col-sm-4.mt-5 img {
+                            width: 65%;
+                        }
+                        #ice {
+                          font-family: 'Playfair Display', sans-serif;
+                          font-weight: 600;
+                          font-size: 83px;
+                          color: #D82A47;
+                          text-shadow: 2px 2px 10px #556534;
+                      }
+                     }
+
+                      @media screen and (max-width: 575px){
+                        .img-fluid1 {
+                            margin-left: 33%;
+                        }
+
+                        .bg1 {
+    margin-top: 18%;
+    background-color: #FFE9E0;
+    width: 100%;
+}
+
+
+
+.col-sm-4.mt-5 img {
+    width: 35%;
+}
+
+
+a.navbar-brand img {
+    width: 50%;
+}
+
+#ice {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    color: #D82A47;
+    text-shadow: 2px 2px 10px #556534;
+}
+                      }
+
+
+
+
+            </style>
+          </head>
+          <body>
+
+          <!--     NAVIGATION BAR START
+           -->  
+
+              <div class="container-fluid ">
+                  <nav class="navbar fixed-top navbar-expand-lg bg">
+              <a class="navbar-brand" href="#"><img src="img/Logo.png" class="img-fluid"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars" style="color:#D82A47"></i>
+
+                <span class="navbar-toggler-icon" ;></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item  ">
+                    <a class="nav-link "  href="#">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Delivery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link Active" href="#">Order Now</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+          </div>
+
+          <!--     NAVIGATION BAR END
+           --> 
+
+           <!-- HEADER START -->
+
+
+          <div class="container-fluid bg1 ">
+            <div class="row  ">
+              <div class="col-sm-4 mt-5">
+                <img src="img/7493.png" class="img-fluid1">
+              </div>
+              <div class="col-sm-8">
+                <div class="heading">
+                <h1 id="ice">ice-cream</h1>
+                <p id="caption">Find a kid inside you, with our all flavour with the best ice-cream.<br>
+                 lorem ipusm doller sit with lazy dog jumps over the fox.</p>
+                 <button type="button" class="btn">Explore menu</button>
+              </div>
+              </div>
+            </div>
+            </div>
+
+          <!-- HEADER END -->
+          <!-- BODY PART 1 START -->
+
+
+          <div class="container-fluid bg2">
+            <div class="row p-0">
+              <div class="offset-sm-2 col-sm ">
+              <div class="text-cont">
+                <h1 class="heading2">ice-cream</h1>
+                <p class="cap">Enjoy chocolate vanilla, or strawberry flavors</p>
+                <p class="rate">$ 4.99 <button type="button" class="btn1">Add To Cart</button></p>
+              </div>
+              </div>
+              <div class=" col-sm">
+                <div class="img-box">
+                  <img src="img/74913.png" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- BODY PART 1 END -->
+          <!-- BODY PART 2 START -->
+
+
+          <div class="container-fluid bg2">
+            <div class="row p-0">
+              <div class="offset-sm-2 col-sm">
+                <div class="img-box">
+                  <img src="img/7507.png" class="img-fluid">
+                </div>
+              </div>
+            <div class=" col-sm ">
+              <div class="text-cont">
+                <h1 class="heading2">ice-cream</h1>
+                 <p class="cap">Enjoy chocolate vanilla, or strawberry flavors</p>
+                  <p class="rate">$ 4.99 <button type="button" class="btn1">Add To  Cart</button></p>
+               </div>
+             </div>
+           </div>
+          </div>
+
+
+          <!-- BODY PART 2 END -->
+          <!-- BODY PART 3 START -->
+
+          <div class="container-fluid bg2">
+            <div class="row p-0">
+              <div class="offset-sm-2 col-sm ">
+              <div class="text-cont">
+                <h1 class="heading2">ice-cream</h1>
+                <p class="cap">Enjoy chocolate vanilla, or strawberry flavors</p>
+                <p class="rate">$ 4.99 <button type="button" class="btn1">Add To Cart</button></p>
+              </div>
+              </div>
+              <div class=" col-sm">
+                <div class="img-box">
+                  <img src="img/7498.png" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- BODY PART 3 END -->
+          <!-- BODY PART 4 START -->
+
+
+          <div class="bg2">
+            <div class="container-fluid ">
+              <div class="row">
+                <div class="col-sm-12 m-0 p-0">
+                  <img src="img/Subtraction 13.png" class="img-fluid2">
+                  <div class="overlay">
+                  <p>Ellie nailed the brief for our project.<br> She totally got what we were looking<br> for and created something that<br> surpassed our expectations.</p>
+                  <p class="name">Jess Wickham, woodley</p>
+                </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          </body>
+          </html>
